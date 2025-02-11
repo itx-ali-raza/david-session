@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ALI_XMD_V2 SESSION IS 
+┃ALI-MD SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
@@ -67,13 +67,12 @@ router.get('/', async (req, res) => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
- Follow My Support Channel
 Wanna talk to me?👉 https://wa.me/message/TAMAX6V3VD2RG1 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©*2024-2099 ALI*
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:ALI_MD_TEXT},{quoted:session})
  
 
         await delay(100);
